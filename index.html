@@ -1,10 +1,500 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Lauren A Rose</title>
+    <title>Lauren Rose - Software Engineer</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github activity css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+
 </head>
+
 <body>
-    Test
+<!-- ******HEADER****** -->
+<header class="header">
+    <div class="container clearfix">
+        <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="Lauren Rose" />
+        <div class="profile-content float-left">
+            <h1 class="name">Lauren Rose</h1>
+            <h2 class="desc">Software Engineer</h2>
+            <ul class="social list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>
+                <li class="list-inline-item last-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
+            </ul>
+        </div><!--//profile-->
+        <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank">
+            <i class="fas fa-paper-plane"></i> Contact Me</a>
+    </div><!--//container-->
+</header><!--//header-->
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-lg-8 col-12">
+            <section class="about section">
+                <div class="section-inner">
+                    <h2 class="heading">About Me</h2>
+                    <div class="content">
+                        <p>I'm getting ready to graduate from an accredited CS program at Radford University,
+                            with a 3.9 GPA. I am a hard worker and pride myself on the quality of the software I
+                            write, including code I write for class, work, and personal projects. I have been a
+                            software development intern for four semesters, and now have the responsibilities of
+                            a full-time developer, rather than just an intern. I hold lightning talks both on
+                            campus and at work on a variety of tech and computer science topics. I am also the
+                            president of both the Equality in Computing Club and the Radford chapter of the Upsilon
+                            Pi Epsilon CS honor society, I TA for the Java 2 class, and am an undergraduate
+                            researcher with the cybersecurity faculty.
+                        </p>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+
+            <section class="github section">
+                <div class="section-inner">
+                    <h2 class="heading">My GitHub</h2>
+                    <div id="github-graph" class="github-graph"></div><!--//github-graph-->
+<!--                    <div id="ghfeed" class="ghfeed"></div>&lt;!&ndash;//ghfeed&ndash;&gt;-->
+                </div><!--//secton-inner-->
+            </section><!--//section-->
+
+            <section class="latest section">
+                <div class="section-inner">
+                    <h2 class="heading">Latest Projects</h2>
+                    <div class="content">
+
+                        <div class="item featured text-center">
+                            <h3 class="title">
+                                <a href="https://github.com/lrose07/ConCatApp" target="_blank">
+                                    ConCat App - Pearl Hacks 2020 Submission</a></h3>
+                            <p class="summary">Anonymous chat rooms for events and conferences,
+                                packaged in a lightweight Android app</p>
+                            <div class="featured-image">
+                                <a href="https://github.com/lrose07/ConCatApp" target="_blank">
+                                    <img class="img-fluid project-image" src="assets/images/projects/concatpic.png"
+                                         alt="ConCat App" />
+                                </a>
+                            </div>
+
+                            <div class="desc text-left">
+                                <p>This app is like Yik Yak but specifically for events. Enter an event room
+                                    using a code given by the event organizers, and join the anonymous chat! Event
+                                    organizers can easily set up a new chat room with a custom event code to share
+                                    to participants. The app is built in Java, making use of Google Firebase
+                                    Realtime Database as the backend. It was built by me and a peer, from start to
+                                    finish in less than 24 hours.
+                                </p>
+                            </div><!--//desc-->
+                            <a class="btn btn-cta-secondary" href="https://github.com/lrose07/ConCatApp"
+                               target="_blank">
+                                <i class="fab fa-github"></i>See it on GitHub!
+                            </a>
+                            <a class="btn btn-cta-secondary"
+                               href="https://drive.google.com/open?id=1jAZlj3b0DWTHn9meICHkOiskws3-6KUM"
+                               target="_blank">
+                                <i class="fab fa-google-drive"></i>Get the APK!
+                            </a>
+                        </div><!--//item-->
+                        <hr class="divider" />
+                        <div class="item row">
+                            <a class="col-md-4 col-12"
+                               href="https://github.com/lrose07/SecretPartyBot"
+                               target="_blank">
+                                <img class="img-fluid project-image"
+                                     src="assets/images/projects/secretpartybot.jpg"
+                                     alt="Secret Party Bot" />
+                            </a>
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title">
+                                    <a href="https://github.com/lrose07/SecretPartyBot" target="_blank">
+                                        Secret Party Bot - Discord Bot that creates secret parties!</a></h3>
+                                <p class="mb-2">A Discord bot that allows server members to create private
+                                    channels for small group projects or collaboration.
+                                </p>
+                                <p><a class="more-link" href="https://github.com/lrose07/SecretPartyBot"
+                                      target="_blank">
+                                    <i class="fab fa-github"></i>See it on GitHub</a>
+                                </p>
+                                <p><a class="more-link" href="https://github.com/lrose07/SecretPartyBot"
+                                      target="_blank">
+                                    <i class="fab fa-discord"></i>Try it out on Discord (coming soon)</a>
+                                </p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+
+                        <div class="item row">
+                            <a class="col-md-4 col-12"
+                               href="https://github.com/radford-software-eng/semester-project-repo-lama_null"
+                               target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/donutshop.jpg"
+                                     alt="Donut Shop Ordering System" />
+                            </a>
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title">
+                                    <a href="https://github.com/radford-software-eng/semester-project-repo-lama_null"
+                                       target="_blank">Donut Shop Ordering System</a></h3>
+                                <p class="mb-2">A Python Django web application ordering system for a local
+                                    donut shop. The application allows customers to create an account and place
+                                    a donut order online. This was a team project for a software engineering
+                                    class.
+                                </p>
+                                <p><a class="more-link"
+                                      href="https://github.com/radford-software-eng/semester-project-repo-lama_null"
+                                      target="_blank">
+                                    <i class="fab fa-github"></i>See it on GitHub</a>
+                                </p>
+                                <p><a class="more-link"
+                                      href="http://34.66.145.147/"
+                                      target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>See it in action</a>
+                                </p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+
+                        <div class="item row">
+                            <a class="col-md-4 col-12" href="https://github.com/lrose07/KeyColors" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/keycolors.png"
+                                     alt="project name" />
+                            </a>
+                            <div class="desc col-md-8 col-12">
+                                <h3 class="title"><a href="" target="_blank">
+                                    KeyColors - A fun way to visualize your keystrokes</a></h3>
+                                <p class="mb-2">Key Colors uses JNativeHook to capture your keystrokes as you type
+                                    on your computer, and then uses the data to create a colorful image representation
+                                    of what you typed.
+                                </p>
+                                <p><a class="more-link" href="" target="_blank">
+                                    <i class="fab fa-github"></i>See it on GitHub</a>
+                                </p>
+                                <p><a class="more-link" href="https://drive.google.com/open?id=1sxjULgw7eboZSTaoe_160J_ONwYC4qLt"
+                                      target="_blank">
+                                    <i class="fab fa-google-drive"></i>Try it out (jar download)</a>
+                                </p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+
+        <div class="secondary col-lg-4 col-12">
+            <aside class="info aside section">
+                <div class="section-inner">
+                    <h2 class="heading sr-only">Basic Information</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-map-marker-alt"></i>
+                                <span class="sr-only">Location:</span>Radford, VA &nbsp;&nbsp;&nbsp;
+                                <span class="fas fa-arrow-right"></span>SF Bay Area, CA
+                            </li>
+                            <li><i class="fas fa-envelope"></i>
+                                <span class="sr-only">Email:</span>
+                                <a href="mailto:laurenarose07@gmail.com">laurenarose07 (at) gmail (dot) com</a>
+                            </li>
+                            <li><i class="fas fa-link"></i>
+                                <span class="sr-only">Website:</span>
+                                <a href="https://lrose07.github.io">lrose07.github.io (You're already here)</a>
+                            </li>
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//aside-->
+
+            <aside class="skills aside section">
+                <div class="section-inner">
+                    <h2 class="heading">Skills</h2>
+                    <div class="content">
+                        <p class="intro">
+                        </p>
+                        <div class="skillset">
+
+                            <div class="item">
+                                <h3 class="level-title">Java
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Active understanding of commonly-used language features and
+                                              design patterns">
+                                            <i class="fas fa-info-circle"></i>Expert
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="85%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Git
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Competent using CLI git and experienced with different
+                                              workflows and general git troubleshooting">
+                                            <i class="fas fa-info-circle"></i>Expert
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">HTML5, CSS3
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Good understanding and ability to create stylish and
+                                              mobile-responsive static websites">
+                                            <i class="fas fa-info-circle"></i>Highly proficient
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="75%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Agile SDLC
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Lots of experience on agile teams, including daily standups,
+                                              sprint planning and review, and retrospectives">
+                                            <i class="fas fa-info-circle"></i>Highly proficient
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="75%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Docker
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Experience with containerized development mainly making use of
+                                              Docker Compose">
+                                            <i class="fas fa-info-circle"></i>Proficient
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="60%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Android development
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Have built multiple Android apps from scratch">
+                                            <i class="fas fa-info-circle"></i>Proficient
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="60%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Python Django
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Have worked on several Django projects, including front end,
+                                              back end, and testing">
+                                            <i class="fas fa-info-circle"></i>Proficient
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="60%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Ruby on Rails
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Have worked on multiple client projects using Rails, with a
+                                              focus on testing">
+                                            <i class="fas fa-info-circle"></i>Proficient
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="50%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">SQL
+                                    <span class="level-label"
+                                          data-toggle="tooltip"
+                                          data-placement="left"
+                                          data-animation="true"
+                                          title="Classroom-level experience writing queries, some experience
+                                              writing stored procedures using PL/SQL">
+                                            <i class="fas fa-info-circle"></i>Proficient
+                                        </span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="50%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+                        </div>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="education aside section">
+                <div class="section-inner">
+                    <h2 class="heading">Education</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title"><i class="fas fa-graduation-cap"></i> BS Computer Science</h3>
+                            <h4 class="university">Radford University <span class="year">(2018-2020)</span></h4>
+                            <ul class="list-unstyled">
+                                <li class="university">3.9 Grade Point Average</li>
+                                <li class="university">Upsilon Pi Epsilon CS Honor Society - President</li>
+                                <li class="university">Equality in Computing Club - President</li>
+                                <li class="university">Phi Kappa Phi Honor Society - Member</li>
+                            </ul>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="list conferences aside section">
+                <div class="section-inner">
+                    <h2 class="heading">Conferences & Hackathons</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-calendar-alt"></i>
+                                <a href="https://www.sxsw.com/conference/" target="_blank">SXSW Interactive 2016</a>
+                                (Austin, TX)</li>
+                            <li><i class="far fa-calendar-alt"></i>
+                                <a href="https://cisse.info/">CISSE 2018</a> (New Orleans, LA)</li>
+                            <li><i class="far fa-calendar-alt"></i>
+                                <a href="https://pearlhacks.com/">Pearl Hacks 2020</a> (UNC Chapel Hill)</li>
+                        </ul>
+                        <h5 class="title">Upcoming</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="far fa-calendar-alt"></i>
+                                <a href="https://www.hoohacks.io/">HooHacks 2020</a> (University of VA)</li>
+                            <li><i class="far fa-calendar-alt"></i>
+                                <a href="https://bit.camp/">Bitcamp 2020</a> (UMaryland College Park)</li>
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="projects section">
+                <div class="section-inner">
+                    <h2 class="heading">Other Projects</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title">
+                                <a href="https://github.com/lrose07/GameTest"
+                                   target="_blank">Simple Block Breaker game on Android</a>
+                            </h3>
+                            <p class="summary">This app is a very simple game where you tap blocks that are the same
+                                color as surrounding blocks to remove them from play. The game ends when there are
+                                no moves remaining on the board.
+                            </p>
+                            <p>
+                                <a class="more-link"
+                                   href="https://github.com/lrose07/GameTest" target="_blank">
+                                    <i class="fab fa-github"></i>Code on GitHub</a></p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">
+                                <a href="https://github.com/lrose07/ClosestPairAnalysis"
+                                   target="_blank">Closest Pair Algorithm Analysis</a>
+                            </h3>
+                            <p class="summary">An program that analyzes and compares the efficiency of finding
+                                the closest pair from a set of coordinate pairs, using both the naive brute force
+                                method, and the efficient divide and conquer algorithm.
+                            </p>
+                            <p><a class="more-link" href="https://github.com/lrose07/ClosestPairAnalysis"
+                                  target="_blank"><i class="fab fa-github"></i>Code on GitHub</a></p>
+                        </div><!--//item-->
+
+                        <a class="btn btn-cta-secondary" href="https://github.com/lrose07">
+                            See more of my work on GitHub
+                            <i class="fas fa-chevron-right"></i></a>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<!-- ******FOOTER****** -->
+<footer class="footer">
+    <div class="container text-center">
+        <!--/* This template is free as long as you keep the attribution link below. Thank you for your
+        support. :) If you'd like to use the template without the attribution, you can buy the commercial
+        license via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">Designed with <i class="fas fa-heart"></i> by
+            <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+    </div><!--//container-->
+</footer><!--//footer-->
+
+<!-- Javascript -->
+<script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+<!-- github calendar plugin -->
+<script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+<!-- github activity plugin -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+<script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+<!-- custom js -->
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-</html>
+</html> 
+
