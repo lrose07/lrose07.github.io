@@ -639,6 +639,11 @@ a.dotted-link:hover {
   color: #fb866a;
 }
 
+.mobile-about-section {
+  visibility: hidden;
+  display: none;
+}
+
 @media (max-width: 767.98px) {
   .header {
     text-align: center;
@@ -664,5 +669,30 @@ a.dotted-link:hover {
   .container {
     width: 1360px;
     max-width: inherit;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .github {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  .mobile-button-down-shift {
+    margin-top: 10px;
+  }
+
+  .mobile-about-section {
+    visibility: visible;
+    display: block;
+  }
+
+  .desktop-about-section {
+    visibility: hidden;
+    display: none;
   }
 }
