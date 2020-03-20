@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3AAA64;
+  color: #60bee5;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -60,8 +60,8 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #60dfe5;
+  border: 1px solid #60dfe5;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -74,8 +74,8 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 }
 
 a.btn-cta-secondary, .btn-cta-secondary {
-  background: #479FC8;
-  border: 1px solid #479FC8;
+  background: #60dfe5;
+  border: 1px solid #60dfe5;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -92,7 +92,7 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 
 .badge-theme {
-  background: #3AAA64;
+  background: #60bee5;
   font-size: 12px;
   color: #fff;
   -webkit-border-radius: 2px;
@@ -265,7 +265,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .text {
-  background: #3AAA64;
+  background: #60bee5;
   color: #fff;
 }
 
@@ -445,7 +445,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #60dfe5;
 }
 
 .skills .svg-inline--fa {
