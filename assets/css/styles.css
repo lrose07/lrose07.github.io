@@ -517,6 +517,10 @@ a.dotted-link:hover {
   padding-left: 25px;
 }
 
+.university-name {
+  font-size: 17px !important;
+}
+
 .education .item .university .year {
   color: #b0b7bf;
   font-weight: 500;
