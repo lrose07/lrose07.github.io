@@ -700,3 +700,12 @@ a.dotted-link:hover {
     display: none;
   }
 }
+
+.section {
+  /* Undecided about this */
+  /*outline: #60dfe5 solid 3px;*/
+}
+
+.header {
+  border-bottom: #60dfe5 solid 3px;
+}
